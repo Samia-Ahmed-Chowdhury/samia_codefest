@@ -23,32 +23,32 @@ function Testimonial() {
 
   return (
     <>
-      <section className="Testimonial_section">
+      <section className="Testimonial_section mt-5">
         <div className="container-fluid">
           <div className="row">
-            <div class=" col-xl-6 col-lg-7 col-md-9 col-sm-12 col-12  m-auto ">
+            <div className=" col-xl-6 col-lg-7 col-md-9 col-sm-12 col-12  m-auto ">
               <h2>We bring Solutions to make life easier for our customer</h2>
             </div>
           </div>
           {/* <!-- slide SP  --> */}
           <div className="row">
-            <div class="parent_div col-xl-7 col-lg-9 col-md-9 col-sm-10 col-10  m-auto ">
+            <div className="parent_div col-xl-7 col-lg-9 col-md-9 col-sm-10 col-10  m-auto ">
               <div className='div_circle1'>
-                <img src="images/img1.png" class="img-fluid" alt='img' />
+                <img src="images/img1.png" className="img-fluid" alt='img' />
               </div>
               <div className='div_circle2'>
-                <img src="images/img2.png" class="img-fluid" alt='img' />
+                <img src="images/img2.png" className="img-fluid" alt='img' />
               </div>
               <div className='div_circle3'>
-                <img src="images/img3.png" class="img-fluid" alt='img' />
+                <img src="images/img3.png" className="img-fluid" alt='img' />
               </div>
               <div className='div_circle4'>
-                <img src="images/img4.png" class="img-fluid" alt='img' />
+                <img src="images/img4.png" className="img-fluid" alt='img' />
               </div>
               {/* ------------main circle--------- */}
-              <div id="testimonial1" class="img-fluid   visible">
+              <div id="testimonial1" className="img-fluid   visible">
               <div className='div_circle_main'>
-                <img src="images/img5.png" class="img-fluid" alt='img' />
+                <img src="images/img5.png" className="img-fluid" alt='img' />
               </div>
               <div className='div_rect'>
                 <h4>Samia</h4>
@@ -57,9 +57,9 @@ function Testimonial() {
               </div>
 
               </div>
-              <div id="testimonial2" class="img-fluid hidden">
+              <div id="testimonial2" className="img-fluid hidden">
               <div className='div_circle_main'>
-                <img src="images/t1.png" class="img-fluid" alt='img' />
+                <img src="images/t1.png" className="img-fluid" alt='img' />
               </div>
               <div className='div_rect'>
                 <h4>Sam</h4>
@@ -68,9 +68,9 @@ function Testimonial() {
               </div>
 
               </div>
-              <div id="testimonial3" class="img-fluid hidden">
+              <div id="testimonial3" className="img-fluid hidden">
               <div className='div_circle_main'>
-                <img src="images/t2.png" class="img-fluid" alt='img' />
+                <img src="images/t2.png" className="img-fluid" alt='img' />
               </div>
               <div className='div_rect'>
                 <h4>Abhi</h4>
@@ -79,9 +79,9 @@ function Testimonial() {
               </div>
 
               </div>
-              <div id="testimonial4" class="img-fluid hidden">
+              <div id="testimonial4" className="img-fluid hidden">
               <div className='div_circle_main'>
-                <img src="images/t3.png" class="img-fluid" alt='img' />
+                <img src="images/t3.png" className="img-fluid" alt='img' />
               </div>
               <div className='div_rect'>
                 <h4>ahmed</h4>
@@ -90,9 +90,9 @@ function Testimonial() {
               </div>
 
               </div>
-              <div id="testimonial5" class="img-fluid hidden">
+              <div id="testimonial5" className="img-fluid hidden">
               <div className='div_circle_main'>
-                <img src="images/t4.png" class="img-fluid" alt='img' />
+                <img src="images/t4.png" className="img-fluid" alt='img' />
               </div>
               <div className='div_rect'>
                 <h4>chow</h4>
@@ -104,13 +104,13 @@ function Testimonial() {
               {/* ------------main circle--------- */}
 
               <div className='div_circle6'>
-                <img src="images/img6.png" class="img-fluid" alt='img' />
+                <img src="images/img6.png" className="img-fluid" alt='img' />
               </div>
               <div className='div_circle7'>
-                <img src="images/img7.png" class="img-fluid" alt='img' />
+                <img src="images/img7.png" className="img-fluid" alt='img' />
               </div>
               <div className='div_circle8'>
-                <img src="images/img8.png" class="img-fluid" alt='img' />
+                <img src="images/img8.png" className="img-fluid" alt='img' />
               </div>
               
               

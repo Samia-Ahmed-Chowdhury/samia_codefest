@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import "./Navbar.css"
 import Slide from './Slide';
 import { Link, NavLink } from 'react-router-dom';
+import {  } from "react-router-dom";
+
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import LockPersonIcon from '@mui/icons-material/LockPerson';
 
@@ -44,7 +46,7 @@ function Navbar() {
                     <div className='ms-auto'>
                         <ul className='hidden_ul d-flex'>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/page">
+                                <NavLink className="nav-link" to="/login">
                                 <LockPersonIcon style={{fontSize:"2.5rem"}}/>
                                 </NavLink>
                             </li>
@@ -149,8 +151,8 @@ function Navbar() {
                         </ul>
                         <ul className='my-2'>
                             <div className="widget d-flex">
-                                <li className="nav-item">
-                                    <NavLink className="nav-link" to="/page">
+                                <li className="nav-item nav_btn_link">
+                                    <NavLink className=" nav-link" to="/login">
                                         <button type="btn" className="nav_btn">Login</button>
                                     </NavLink>
                                 </li>

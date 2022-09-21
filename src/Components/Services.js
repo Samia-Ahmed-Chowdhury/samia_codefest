@@ -4,19 +4,19 @@ import PartServices from './PartServices'
 function Services() {
     return (
         <>
-            <section id="service" class="service my-5 pt-5" >
-                <div class="container py-5 ">
-                    <div class="row">
-                        <div class=" col-xl-4 col-lg-4 col-md-6 col-sm-10 col-10  m-auto ">
+            <section id="service" className="service my-5 pt-5" >
+                <div className="container py-5 ">
+                    <div className="row">
+                        <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-10 col-10  m-auto ">
                             <h2>Our Best Hosting Services</h2>
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
+                <div className="container">
+                    <div className="row">
                         <PartServices {...ServicesList[0]}/>
-                        <div class=" col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10  m-auto d-flex justify-content-center ">
-                            <img src="images/service.png" class=" img-fluid service_img " alt="..." />
+                        <div className=" col-xl-4 col-lg-4 col-md-10 col-sm-10 col-10  m-auto d-flex justify-content-center my-5">
+                            <img src="images/service.png" className=" img-fluid service_img " alt="..." />
                         </div>
                         <PartServices {...ServicesList[1]}/>
                     </div>

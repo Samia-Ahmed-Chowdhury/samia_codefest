@@ -117,7 +117,9 @@ nav {
     transform: scale(1.2);
     box-shadow: 0px 5px 50px 5px rgba(255, 76, 41, 0.7);
 }
-
+.nav_btn_link a.active .nav_btn{
+    display: none !important;
+}
 .icons_cart {
     font-size: 3rem !important;
     color: white;

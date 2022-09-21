@@ -4,12 +4,14 @@ import Hero from '../Components/Hero'
 import Price from '../Components/Price'
 import Services from '../Components/Services';
 import Testimonial from '../Components/Testimonial';
-
+import Footer from '../Components/Footer';
+import Features from '../Components/Features'
 function Home() {
   return (
     <>
       <Hero />
-      <Companies />
+      {/* <Companies /> */}
+      <Features />
 
     {/* <!-- ----------------------------Plans part ------------------------- --> */}
       <section className="plans " id="plans">
@@ -32,6 +34,7 @@ function Home() {
     {/* <!-- ------------------------- End --------Plans part ------------------------- --> */}
 <Testimonial />
 <Services />
+<Footer />
       
     </>
   )

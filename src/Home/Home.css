@@ -358,12 +358,13 @@ html {
 
 /* <!-- -------------------------  Testimonial section   ------------------------- --> */
 .Testimonial_section {
-    background-image:url(../images/plans_overlay.png);
+    background-image: url(../images/plans_overlay.png);
     background-repeat: no-repeat;
     opacity: 1;
     background-position-x: center;
     background-position-y: 100px;
     min-height: 50vh;
+    padding-bottom: 50rem !important;
 }
 
 .Testimonial_section h2 {
@@ -480,6 +481,11 @@ html {
     background: #FFFFFF;
     box-shadow: 4px 14px 50px 2px rgb(0 26 255 / 8%);
     border-radius: 20px;
+    transition: all .9s ease;
+}
+
+.div_rect:hover {
+    transform: scale(1.1);
 }
 
 .div_rect h4 {
@@ -507,9 +513,9 @@ html {
 /* 
 /* media query */
 @media only screen and (max-width:900px) {
-    .parent_div {
+    /* .parent_div {
         margin-left: 0px !important;
-    }
+    } */
 
     .div_circle1 img {
         left: 50px;
@@ -669,6 +675,7 @@ html {
         padding: 10px 10px;
     }
 }
+
 /* <!-- -------------------------end---  Testimonial section   ------------------------- --> */
 
 
@@ -697,18 +704,110 @@ html {
     width: 150px;
     height: 100px;
 }
+
 /* <!-- -------------------------end---  sponsor section   ------------------------- --> */
+/* ------------------features-------------------- */
+.features {
+    margin-top: 10rem
+}
+
+.features h2 {
+    padding: 0 0 18px;
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 42px;
+    margin-bottom: 50px;
+}
+
+.features p {
+    font-family: var(--regular-font);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.features .card img {
+    height: 17rem;
+}
+
+.features .card {
+    box-shadow: 0px 14px 31px 0px rgb(143 108 248 / 14%);
+    border-radius: 4px;
+    margin: 15px 3px 45px;
+    padding: 40px 6px 30px;
+    border: none !important;
+    cursor: pointer;
+}
+
+.card-up {
+    margin: -80px 3px 45px !important;
+}
+
+.features .card .card-title {
+    color: #1e1666;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.features .card ul li {
+    color: hsl(215, 10%, 39%);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.features ul li svg {
+    font-size: 3rem !important;
+    color: var(--main--text-color);
+    margin-right: 5px;
+}
+
+.features .price {
+    margin-left: 20px;
+}
+
+.features h6 {
+    font-size: 12px;
+    color: #41464b;
+}
+
+.features h4 {
+    font-size: 18px;
+    font-weight: 700;
+    transition: all .9s ease;
+    color: var(--main-color);
+}
+
+
+@media only screen and (max-width:767px) {
+    .card-up {
+        margin: 0 !important;
+    }
+    .features h2 {
+        margin-bottom: 0px !important;
+    }
+
+}
 
 /* ------------------------------Services-------------------------- */
 
-.service{
-    margin-top: 29rem !important;
+.service {
+    background-image: url("../images/overlay.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 4rem !important;
 }
 
 
 .service h2 {
     padding: 0 0 18px;
-    color: #1e1666;
+    color: white;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
@@ -716,7 +815,7 @@ html {
 }
 
 .points h6 {
-    color: var(--main--text-color);
+    color: white;
     font-family: var(--header-font);
     text-align: right;
     font-size: 18px;
@@ -727,14 +826,14 @@ html {
 .points p {
     text-align: right;
     font-family: var(--regular-font);
-    color: #1e1e1f;
+    color: #e0e0e0;
     font-size: 15px;
     font-weight: 400;
     line-height: 28px;
 }
 
 .points2 h6 {
-    color: var(--main--text-color);
+    color: white;
     font-family: var(--header-font);
     text-align: left;
     font-size: 18px;
@@ -745,7 +844,7 @@ html {
 .points2 p {
     text-align: left;
     font-family: var(--regular-font);
-    color: #1e1e1f;
+    color: #e0e0e0;
     font-size: 15px;
     font-weight: 400;
     line-height: 28px;
@@ -770,6 +869,83 @@ html {
 
 
 /* -----------------end-------services------------------- */
+
+/* ------------------Footer--------------------- */
+footer {
+    background-image: url("../images/footer-bg.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 4rem !important;
+}
+
+footer p {
+    margin: 24px 0;
+    column-gap: 0;
+    color: #eff0ff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+footer .social {
+    padding-right: 6rem !important;
+}
+
+footer h6 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+footer form input {
+    width: 100%;
+    max-width: 257px;
+    height: 47px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 28px;
+    color: #5a626d;
+    font-weight: 400;
+    font-family: "Inter";
+    padding-left: 25px;
+}
+
+footer form .submit_btn {
+    width: 60px;
+    height: 47px;
+    border-radius: 0 4px 4px 0;
+    display: inline-block;
+    position: absolute;
+    background: var(--primary-color);
+    border: 0;
+    color: transparent;
+}
+
+.col_2 {
+    padding: 0 65px !important;
+}
+
+@media only screen and (max-width:1400px) {
+
+    .col_2 {
+        padding: 0 43px !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    footer .social {
+        padding-right: 7rem !important;
+    }
+}
+
+/* ------------------Footer--------------------- */
+/* ---------login------------- */
+
+
 
 /* media query */
 @media only screen and (max-width:1200px) {
