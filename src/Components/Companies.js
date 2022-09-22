@@ -14,31 +14,31 @@ function Companies() {
             <div className="col-12 mx-auto">
             <OwlCarousel   {...options}>
                 <div className="item">
-                  <img src="images/sp1.png" />
+                  <img src="images/sp1.png" alt="items" />
                 </div>
                 <div className="item">
-                  <img src="images/sp2.png" />
+                  <img src="images/sp2.png" alt="items" />
                 </div>
                 <div className="item">
-                  <img src="images/sp3.png" />
+                  <img src="images/sp3.png" alt="items" />
                 </div>
                 <div className="item">
-                  <img src="images/sp4.png" />
+                  <img src="images/sp4.png" alt="items" />
                 </div>
                 <div className="item">
-                  <img src="images/sp5.png" />
+                  <img src="images/sp5.png" alt="items" />
                 </div>
                 <div className="item">
-                  <img src="images/sp6.png" />
+                  <img src="images/sp6.png" alt="items" />
                 </div>
                 <div className="item">
-                  <img src="images/sp7.png" />
+                  <img src="images/sp7.png" alt="items" />
                 </div>
                 <div className="item">
-                  <img src="images/sp4.png" />
+                  <img src="images/sp4.png" alt="items" />
                 </div>
                 <div className="item">
-                  <img src="images/sp5.png" />
+                  <img src="images/sp5.png" alt="items" />
                 </div>
                 </OwlCarousel>
               </div>

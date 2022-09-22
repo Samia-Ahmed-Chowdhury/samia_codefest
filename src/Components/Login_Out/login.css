@@ -61,6 +61,7 @@ li {
     margin-top: 10px;
     font-size: medium;
     padding: 2rem;
+    cursor: pointer;
     border: 2.5px solid #58A3F2;
 }
 
@@ -76,7 +77,8 @@ li {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 500;
-    color: black
+    color: black;
+    cursor: pointer;
 }
 
 .login_link:hover {

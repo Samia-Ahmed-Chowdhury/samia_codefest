@@ -24,6 +24,7 @@ html {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 0 0 90px 90px;
     padding-bottom: 4rem !important;
 }
 
@@ -128,7 +129,7 @@ html {
 
 .plans h2 {
     color: #1e1666;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 42px;
     text-align: center;
@@ -152,7 +153,7 @@ html {
 .plans .card_plans h3 {
     color: #fff;
     font-family: "Inter", Sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 42px;
 }
@@ -160,7 +161,7 @@ html {
 .plans .card_plans .price {
     color: #ff4c29;
     font-family: "Inter", Sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 42px;
 }
@@ -172,14 +173,14 @@ html {
 .plans h6 {
     padding: 30px 0 25px;
     color: #000000;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 700;
     line-height: 28px;
 }
 
 .plans ul li {
     color: var(--main--text-color);
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
     padding: 16px 0;
     line-height: 28px;
@@ -219,7 +220,7 @@ html {
 
 .plans_btn {
     margin-top: 17px;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 32px;
     color: #fff;
@@ -242,7 +243,7 @@ html {
 .plans .top_card .card_plans h3 {
     color: #fff;
     font-family: "Inter", Sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 42px;
 }
@@ -250,7 +251,7 @@ html {
 .plans .top_card .card_plans .price {
     color: #ffffff;
     font-family: "Inter", Sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 42px;
 }
@@ -270,7 +271,7 @@ html {
 
 .top_card .plans_btn {
     margin-top: 17px;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 32px;
     color: #fff;
@@ -683,7 +684,7 @@ html {
 .sponsor_section h2 {
     font-family: var(--main-heading-font);
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: bold;
     color: var(--primary-color);
     background: none;
@@ -691,7 +692,7 @@ html {
 }
 
 .sponsor_section p {
-    font-size: 20px;
+    font-size: 1.8rem;
     color: var(--main--text-color);
     margin-top: 12px;
     margin-bottom: 19px;
@@ -701,7 +702,7 @@ html {
 }
 
 .sponsor_section .item {
-    width: 150px;
+    width: 100px;
     height: 100px;
 }
 
@@ -714,7 +715,7 @@ html {
 .features h2 {
     padding: 0 0 18px;
     color: var(--primary-color);
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     line-height: 42px;
@@ -731,24 +732,35 @@ html {
 
 .features .card img {
     height: 17rem;
+    transition: all .9s ease;
+}
+
+.features .card-up img {
+    padding: 2.6rem 0;
 }
 
 .features .card {
     box-shadow: 0px 14px 31px 0px rgb(143 108 248 / 14%);
-    border-radius: 4px;
-    margin: 15px 3px 45px;
-    padding: 40px 6px 30px;
+    border-radius: 20px 20px 100px 20px;
+    margin: 15px 6px 45px;
+    padding: 25px 6px;
     border: none !important;
     cursor: pointer;
 }
 
+.features .card:hover h4,
+.features .card:hover img {
+    transform: scale(1.1);
+    color: red;
+}
+
 .card-up {
-    margin: -80px 3px 45px !important;
+    margin: -80px 6px 45px !important;
 }
 
 .features .card .card-title {
     color: #1e1666;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-align: center;
     font-weight: 700;
     line-height: 32px;
@@ -756,7 +768,7 @@ html {
 
 .features .card ul li {
     color: hsl(215, 10%, 39%);
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
     line-height: 28px;
 }
@@ -772,12 +784,12 @@ html {
 }
 
 .features h6 {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #41464b;
 }
 
 .features h4 {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 700;
     transition: all .9s ease;
     color: var(--main-color);
@@ -788,10 +800,80 @@ html {
     .card-up {
         margin: 0 !important;
     }
+
     .features h2 {
         margin-bottom: 0px !important;
     }
 
+}
+
+/* -----------FAQ---------- */
+/* .faq .faq_img{
+    height: 300px;
+} */
+.faq h2 {
+    font-size: 2.2rem;
+    color: var(--main--text-color);
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.faq h4 {
+    color: #41464b;
+    text-align: center
+}
+
+.content {
+    background: linear-gradient(103.02deg, rgba(255, 255, 255, 0.6) 9.09%, rgba(255, 255, 255, 0.2) 92.78%);
+    opacity: 0.9;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 40px rgb(166 166 166 / 8%);
+    padding: 6rem 8rem 2rem;
+    border-radius: 10px 10px 200px 10px;
+}
+
+.faq_points h6 {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+}
+
+.faq_points p {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+
+.line {
+    width: 1.5px;
+    height: 105px;
+    background: var(--primary-color);
+    margin: 0 0 0 10px;
+}
+
+.list_icon {
+    font-size: 3rem !important;
+}
+
+.list_icon:last-child {
+    margin-top: -62px;
+}
+
+@media only screen and (max-width:767px) {
+    .content {
+        padding: 10rem 5rem;
+    }
+
+    .faq h6 {
+        line-height: 2.9rem;
+    }
+
+    .faq p {
+        line-height: 2.3rem;
+    }
 }
 
 /* ------------------------------Services-------------------------- */
@@ -802,13 +884,15 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 4rem !important;
+    border-radius: 90px;
+    margin-top: 7rem !important;
 }
 
 
 .service h2 {
     padding: 0 0 18px;
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     line-height: 42px;
@@ -818,7 +902,7 @@ html {
     color: white;
     font-family: var(--header-font);
     text-align: right;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 32px;
 }
@@ -827,7 +911,7 @@ html {
     text-align: right;
     font-family: var(--regular-font);
     color: #e0e0e0;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 28px;
 }
@@ -836,7 +920,7 @@ html {
     color: white;
     font-family: var(--header-font);
     text-align: left;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 32px;
 }
@@ -845,7 +929,7 @@ html {
     text-align: left;
     font-family: var(--regular-font);
     color: #e0e0e0;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 28px;
 }
@@ -861,7 +945,7 @@ html {
 
 @media only screen and (max-width:993px) {
     .service h2 {
-        font-size: 25px;
+        font-size: 2.5rem;
     }
 }
 
@@ -869,12 +953,41 @@ html {
 
 
 /* -----------------end-------services------------------- */
+/* ---------------------offer---------------- */
+.offer_div {
+    background-color: hsl(0deg 0% 96% / 10%);
+    box-shadow: inset 0px 7px 12px -5px rgb(245 236 236), inset 0px 11px 56px -35px rgb(112 43 43 / 50%);
+    border-radius: 20px;
+    padding: 1rem 5rem 5rem;
+}
+
+.offer h1 {
+    font-family: var(--main-heading-font);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    background: none;
+    padding: 55px 0 0;
+}
+
+.offer h6 {
+    font-size: 1.4rem;
+    color: var(--main--text-color);
+    margin-top: 12px;
+    margin-bottom: 19px;
+    font-weight: 600;
+    text-align: center;
+    font-family: var(--header-font);
+}
+
 
 /* ------------------Footer--------------------- */
 footer {
     background-image: url("../images/footer-bg.png");
     width: 100%;
     background-size: cover;
+    border-radius: 90px 90px 0 0;
     background-repeat: no-repeat;
     padding-bottom: 4rem !important;
 }
@@ -883,7 +996,7 @@ footer p {
     margin: 24px 0;
     column-gap: 0;
     color: #eff0ff;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 28px;
 }
@@ -894,7 +1007,7 @@ footer .social {
 
 footer h6 {
     color: #fff;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 30px;
 }
@@ -906,7 +1019,7 @@ footer form input {
     border: 0;
     border-radius: 4px;
     background-color: #fff;
-    font-size: 15px;
+    font-size: 1.5rem;
     line-height: 28px;
     color: #5a626d;
     font-weight: 400;
@@ -922,6 +1035,7 @@ footer form .submit_btn {
     position: absolute;
     background: var(--primary-color);
     border: 0;
+    text-align: center;
     color: transparent;
 }
 
@@ -974,6 +1088,24 @@ footer form .submit_btn {
     html {
         font-size: 45%;
     }
+    .hero{
+        border-radius: 0px !important;
+    }
+    footer{
+        border-radius: 0px !important;
+    }
+    .Testimonial_section .parent_div img{
+       width: 50px;
+       height: 50px;
+    }
+    .Testimonial_section .parent_div .div_circle_main img{
+        width: 89px;
+        height: 89px;
+    }
+    .Testimonial_section .parent_div .div_rect{
+            left: 180px;
+            top:238px;
+    }
 
 }
 
@@ -983,7 +1115,7 @@ footer form .submit_btn {
     }
 
     .hero .overlay_shape h1 {
-        font-size: 35px;
+        font-size: 3.5rem;
         line-height: 45px;
     }
 
@@ -1007,6 +1139,25 @@ footer form .submit_btn {
         padding: 10px 38px;
     }
 }
+@media only screen and (max-width:400px) {
+ 
+    .Testimonial_section .parent_div img{
+       width: 35px;
+       height: 35px;
+    }
+    .Testimonial_section .parent_div .div_circle_main img{
+        width: 60px;
+        height: 60px;
+        left: 114px;
+    top: 140px;
+    }
+    .Testimonial_section .parent_div .div_rect{
+        left: 126px;
+        top: 180px;
+    }
+
+}
+
 
 @media only screen and (max-width:355px) {
 

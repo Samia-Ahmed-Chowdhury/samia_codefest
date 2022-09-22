@@ -27,7 +27,7 @@ function Regi() {
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-10 m-auto form_part">
 
-                            <h4 className="text-center mb-3" >Sign In</h4>
+                            <h4 className="text-center mb-3" >Sign Up</h4>
 
                             <form onSubmit={submitHandler} >
                             <button className='apps_sign google_sign'>
@@ -63,8 +63,8 @@ function Regi() {
                                 </div>
 
 
-                                <p className=' login_link' onClick={navigationTo}>Don't have an account ?</p>
-                                <button type="submit" className="submit_btn mt-4">Signin</button>
+                                <p className=' login_link' onClick={navigationTo}>Already have an account ?</p>
+                                <button type="submit" className="submit_btn mt-4">Submit</button>
                             </form>
                         </div>
                     </div>

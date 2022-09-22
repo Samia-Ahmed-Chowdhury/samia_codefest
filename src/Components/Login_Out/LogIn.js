@@ -19,9 +19,9 @@ function LogIn() {
             info = JSON.parse(info)
             // console.log(info)
             // console.log(info.fname)
-
+            console.log(info.fname)
             data.email === info.email ?
-                (data.pass === info.pass ? alert(`welcome to ${data.fname}`) : alert(' Pass doesn`t match '))
+                (data.pass === info.pass ? alert(`welcome ${info.fname}`) : alert(' Pass doesn`t match '))
                 : alert('Email not found')
 
         }
@@ -37,17 +37,17 @@ function LogIn() {
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-10 m-auto form_part">
 
-                            <h4 className="text-center mb-3" >Sign Up</h4>
+                            <h4 className="text-center mb-3" >Sign In</h4>
 
                             <form onSubmit={submitHandler} >
                                 <button className='apps_sign google_sign'>
-                                <img src="../images/google.svg" alt="app"  className='apps img-fluid'/>
-                                Sign in with Google</button>
+                                    <img src="../images/google.svg" alt="app" className='apps img-fluid' />
+                                    Sign in with Google</button>
                                 <button className='apps_sign apple_sign'>
-                                <img src="../images/apple.svg" alt="app"  className='apps2 img-fluid'/>
-                                Sign in with Apple</button>
+                                    <img src="../images/apple.svg" alt="app" className='apps2 img-fluid' />
+                                    Sign in with Apple</button>
 
-                                <p className='pt-2' style={{fontSize:"1.2rem"}}>Or</p>
+                                <p className='pt-2' style={{ fontSize: "1.2rem" }}>Or</p>
 
                                 <div className="form-group">
                                     <input type="email" placeholder='Enter Email' required
@@ -59,8 +59,8 @@ function LogIn() {
                                         name='pass' value={data.pass} onChange={e => setData({ ...data, pass: e.target.value })}
                                         required />
                                 </div>
-                                <button type="submit" className="submit_btn mt-4">SignUp</button>
-                                <p className=' login_link' onClick={navigationTo}>Already have an account ?</p>
+                                <button type="submit" className="submit_btn mt-4">Submit</button>
+                                <p className=' login_link' onClick={navigationTo}>Don't have an account ?</p>
                                 <p className=' login_link' style={{ color: "red", paddingTop: ".5px" }}>Forgot Password ?</p>
                             </form>
                         </div>
