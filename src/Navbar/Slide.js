@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function Slide() {
     return (
         <>
-            <div className="slide" id="slide">
+            <div className="slide" id="slide" style={{ position: "fixed" }}>
                 <ul className="">
                         <li className="nav-item dropdown">
                             <NavLink className="nav-link dropdown-toggle" to="/page" id="navbarDropdown" role="button"

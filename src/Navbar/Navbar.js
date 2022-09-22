@@ -32,7 +32,7 @@ function Navbar() {
 
             {/* <!-- ------------------------- Navbar bar ------------------------- --> */}
 
-            <nav className="navbar navbar-expand-lg py-4">
+            <nav className="navbar  fixed-top  navbar-expand-lg py-4" >
                 <div className="container-fluid">
 
                     <NavLink to="/" >
