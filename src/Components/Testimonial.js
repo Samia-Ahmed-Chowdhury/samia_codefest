@@ -80,10 +80,10 @@ function Testimonial() {
               </div>
               <div id="testimonial4" className="img-fluid hidden">
                 <div className='div_circle_main'>
-                  <img src="images/Sam.png" className="img-fluid" alt='img' />
+                  <img src="images/img3.png" className="img-fluid" alt='img' />
                 </div>
                 <div className='div_rect'>
-                  <h4>ahmed</h4>
+                  <h4>Sam</h4>
                   <h5>World's Best Hosting Pro...</h5>
                   <p>According to my experience with Hostinger, It's not a headache to ...</p>
                 </div>
