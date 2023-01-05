@@ -5,7 +5,6 @@ function Hero() {
     return (
         <>
             <section id="hero" className="hero">
-                
                     <div className="container py-5 ">
                     <div className="overlay_shape">
                         <div className="row py-4">
