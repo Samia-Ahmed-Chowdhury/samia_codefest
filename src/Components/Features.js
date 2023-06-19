@@ -5,7 +5,7 @@ function Features(props) {
     const{clsNm,img,h3,li_1,li_2,li_3,li_4,h4}=props
   return (
     <>
-            <div className="card-div col-xl-3 col-lg-6 col-md-6 col-sm-10 col-10  m-auto ">
+            <div className="card-div col-xl-3 col-lg-6 col-md-6 col-sm-10 col-10  m-auto  py-2 ">
                     <div className={`${clsNm}`}>
                         <div className="card_img d-flex justify-content-center">
                             <img src={img} className=" img-fluid " alt="..." />

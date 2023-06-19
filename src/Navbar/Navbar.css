@@ -156,7 +156,6 @@ nav ul li .dropdown-menu .dropdown-item {
 .toggle_btn {
     display: none;
     visibility: hidden;
-    -webkit-appearance: none;
 }
 
 .toggle .common {

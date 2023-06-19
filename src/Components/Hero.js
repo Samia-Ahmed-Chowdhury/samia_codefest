@@ -4,12 +4,12 @@ import '../Home/Home.css'
 function Hero() {
     return (
         <>
-            <section id="hero" className="hero">
+            <section id="hero" className="hero my-5 m-auto">
                     <div className="container py-5 ">
                     <div className="overlay_shape">
                         <div className="row py-4">
                             <div className="col-xl-6 col-lg-8 col-md-12 col-sm-12 col-12 m-auto ">
-                                <h5>Welcome To <span> Hostinger</span></h5>
+                                <span className="wcl_text">Welcome To <span> Hostinger</span></span>
                                 <h1>Web Hosting as Dynamic as Your Business</h1>
                                 <p>Start your journey with our Premium plan and get a personal domain, lifetime SSL, and DDoS protection for free with a yearly subscription.
                                     To power up your website, we use innovative site hosting technologies.

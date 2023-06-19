@@ -4,10 +4,10 @@ import PartServices from './PartServices'
 function Services() {
     return (
         <>
-            <section id="service" className="service my-5 pt-5" >
-                <div className="container py-5 ">
+            <section id="service" className="service my-5 py-5" >
+                <div className="container py-5 my-2 ">
                     <div className="row">
-                        <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-10 col-10  m-auto ">
+                        <div className=" col-xl-4 col-lg-4 col-md-6 col-sm-10 col-10  mx-auto ">
                             <h2>Our Best Hosting Services</h2>
                         </div>
                     </div>

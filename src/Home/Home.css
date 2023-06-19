@@ -20,24 +20,22 @@ html {
 /* <!-- ------------------------- hero part ------------------------- --> */
 
 .hero {
-    background-image: url("../images/hero.png");
-    width: 100%;
+    background-image: url("../images/h.png");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0 0 90px 90px;
     padding-bottom: 4rem !important;
 }
 
-.hero .overlay_shape h5 {
+.hero .overlay_shape .wcl_text {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     border-bottom: 1px solid #fff;
-    width: 29%;
     line-height: 32px;
 }
 
-.hero .overlay_shape h5 span {
+.hero .overlay_shape .wcl_text span {
     color: var(--primary-color);
     font-weight: 600;
 
@@ -709,7 +707,8 @@ html {
 /* <!-- -------------------------end---  sponsor section   ------------------------- --> */
 /* ------------------features-------------------- */
 .features {
-    margin-top: 10rem
+    margin-top: 12rem;
+    margin-bottom: 3rem;
 }
 
 .features h2 {
@@ -885,7 +884,7 @@ html {
     background-repeat: no-repeat;
     padding-bottom: 4rem !important;
     border-radius: 90px;
-    margin-top: 7rem !important;
+    margin-top: 12rem !important;
 }
 
 
@@ -959,6 +958,7 @@ html {
     box-shadow: inset 0px 7px 12px -5px rgb(245 236 236), inset 0px 11px 56px -35px rgb(112 43 43 / 50%);
     border-radius: 20px;
     padding: 1rem 5rem 5rem;
+    margin: 10rem auto !important;
 }
 
 .offer h1 {

@@ -3,7 +3,7 @@ import React from 'react'
 function Offer() {
     return (
         <>
-            <section className='offer my-5 pb-5'>
+            <section className='offer  mx-auto pb-5'>
                 <div className='container'>
                     <div className='row'>
                         <div className="offer_div col-xl-8 col-lg-8 col-md-10 col-sm-10 col-10  m-auto ">

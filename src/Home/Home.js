@@ -18,7 +18,7 @@ function Home() {
       <Companies />
 
       {/* <!-- ----------------------------Plans part ------------------------- --> */}
-      <section className="plans  " id="plans">
+      <section className="plans  my-5 py-5" id="plans">
         <div className="container">
           <div className=" row my-5 ">
             <h2>Choose your Best Web Hosting Plan</h2>
@@ -41,8 +41,8 @@ function Home() {
 
       {/* -------------more Features--------------- */}
       <section id="features" className="features">
-        <div className="container  ">
-          <div className="row">
+        <div className="container my-5  ">
+          <div className="row mt-5">
             <p>More Features</p>
             <h2>See What's inside....</h2>
 
@@ -61,8 +61,8 @@ function Home() {
       <Testimonial />
       {/* ---------faQ-------------- */}
       <section className="faq my-5" id="faq">
-        <div className="container py-5 ">
-          <div className="row py-5">
+        <div className="container  ">
+          <div className="row ">
 
             <div className=" col-xl-4 col-lg-4 col-md-4 col-sm-10 col-10 d-flex justify-content-end m-auto ">
               <img src="../images/faq.svg" className=" img-fluid faq_img " alt="img" />

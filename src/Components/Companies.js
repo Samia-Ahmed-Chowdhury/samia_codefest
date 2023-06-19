@@ -5,7 +5,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 function Companies() {
   return (
     <>
-        <section className="sponsor_section">
+        <section className="sponsor_section my-5 py-5">
         <div className="container">
           <div className="row">
             <h2>You&rsquo;re in good company</h2>
